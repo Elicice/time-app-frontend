@@ -10,6 +10,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Overview from './Overview';
 
 
 function App() {
@@ -20,7 +21,9 @@ function App() {
       <NavBar />
       <div className="App-content"> 
       <Routes>
-      <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
+
+        <Route path="overview" element={<Overview />} />
       </Routes>
       </div>
       <Footer />

@@ -1,0 +1,5 @@
+.settings{
+    display: flex;
+    flex-direction: row-reverse;
+    -ms-flex-align: start;
+}
